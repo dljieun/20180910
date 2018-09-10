@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<input type="text" placeholder="당신의 출생년도" size="16" id="myBirthyear" >년도
+ 	<button id="but">한국나이계산</button>
+ 	<div id="output" style="width: 240px; height:500px; background: pink; color: blue; text-align: center; line-height:  500px; " >당신의 당신의 한국나이는?</div>
+
+	<script type="text/javascript">
+
+		but.onclick = function(){
+
+			var koreanage = (2018 - myBirthyear.value + 1);
+			var finalOutput = "당신의 한국나이는" + myBirthyear.value + " 입니다."; 
+
+				output.innerHTML = finalOutput;
+
+			}
+
+
+
+
+
+		
+		
+
+
+	</script>
+
+</body>
+</html>
